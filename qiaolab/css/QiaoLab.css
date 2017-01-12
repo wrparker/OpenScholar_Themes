@@ -1,0 +1,179 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://translate.googleapis.com/translate_static/css/translateelement.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700')'
+/* hide news date... dunno if thsi si used elsewhere */
+
+#page.container{
+    max-width:100% !important;
+}
+
+span.date-display-single {
+    visibility: hidden !important;
+}
+
+/*below fix for slider style*/
+.two-sidebars #layout_16_9_below .slide-copy {
+    height: 35px !important;
+}
+.two-sidebars #layout_16_9_overlay .slide-copy {
+    min-height: 30px !important;
+}
+
+#menu-bar ul.nice-menu ul li a {
+    padding: 10px 10px 5px 18px;
+}
+
+ul.nice-menu ul {
+    top:3.5em !important;
+    background:inherit !important;
+    border-top:none !important;
+}
+
+html, body {
+    font: 0.91em/22px Arial,Verdana,sans-serif !important;
+}
+
+
+
+
+
+/*Sidebars weren't behaving well responsively... so i made them here*/
+/*START SIDEBAR FIX*/
+
+@media only screen and (min-width: 1025px){
+    #columns {
+        width: 1025px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .region-sidebar-first {
+        width:20% !important;
+    }
+    /*#menu-bar ul li a{
+        font-size:0.75em !important;
+    }*/
+    
+    #boxes-box-os_logo{
+        width:550px;
+    }
+    
+    .region-sidebar-second {
+        width:20% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px){
+     .region-sidebar-second {
+        width:48% !important;
+    }
+        .region-sidebar-first {
+        width:48% !important;
+       }
+    
+}
+
+@media (max-width: 768px){
+    #menu-bar ul.nice-menu li a{
+    background: inherit !important;
+    color: inherit !important;
+    }
+    
+    #menu-bar ul.nice-menu li a:hover{
+    background: inherit !important;
+    color: inherit !important;
+    }
+}
+/*END SIDEBAR FIX*/
+
+#menu-bar ul li a {
+    text-transform:none;
+    color:#cdcdcd;
+    /*padding: .3em 1.6em !important;*/
+}
+
+
+#menu-bar ul.nice-menu li a:hover, #menu-bar ul.nice-menu li a.hover {
+    background-color:inherit !important;
+    color: #FFFFFF;
+}
+
+.sidebar ul.menu {
+    margin-top: -45px;
+}
+
+#header-container {
+    padding: 0 10px 10px;
+    background-color:#c0dfd9;
+    height: 100% !important;
+    /*background-image: url("../images/header11.png");*/
+    background-repeat: no-repeat;
+   /* background-size: cover;*/
+    background-position: right top;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 150% !important;
+	background: url('../images/cw-bg1.gif') repeat-y 50% 0;   
+	}
+
+/* TYPOGRAPHY*/
+a, a:visited {
+	color:#446677;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #222;
+	}
+
+h1, h2, h3, h4 {
+	font-weight:normal;
+	font-family:'Arvo', arial, serif;
+	margin-bottom:15px;
+	}
+	
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}
+    
+#header-container, #menu-bar{
+    width:98.9% !important;
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+#menu-bar{
+    background:url('../images/mainNavBg.png') repeat-x scroll 0% 0% #333333 !important;
+    color:#FFFFFF !important;
+}
+
+#menu-bar ul{
+    background-color:#444444 !important;
+    color:#FFFFFF !important;
+}
+
+#layout_16_9_overlay .rslides_tabs {
+    visibility: hidden !important; 
+}
+
+
+#block-os-primary-menu {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 1047px;
+}
+
+#siteName, #siteName a{
+    width:50%  !important;
+    margin: 0 auto !important;
+}
+
+

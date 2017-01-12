@@ -1,0 +1,21 @@
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
+
+;----------// Theme Information
+
+  name        = CottonGenomics 
+  description = Mobil responsive theme based on commodore for the Cotton Genomics website.
+  module      = commodore
+  screenshot  = screenshot.png
+
+;----------// Stylesheets
+
+  css[] = css/CottonGenomics.css
+; css[] = css/CottonGenomics.layout.css  
+; ^-- Dont need this.  Based on an existing theme.
+: ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
+
+; scripts[] = js/CottonGenomics.js
+
