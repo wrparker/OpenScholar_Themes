@@ -1,0 +1,133 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
+/*Get 3 column backgroun*/
+
+.content-left.content-right .at-panel .region.region-content-first {
+     border-right: none;
+}
+
+.content-left.content-right .at-panel .region.region-content-first, 
+.content-left.content-right .at-panel .region.region-content-second, 
+.content-left.content-right .at-panel .region.region-content-bottom {
+     clear: none;
+     display: inline;
+     float: left;
+     margin: 15px 0;
+     width: 32%;
+}
+
+.content-left.content-right .at-panel .region.region region-content-first, 
+.content-left.content-right .at-panel .region.region-content-second {
+     margin-right: 15px;
+}
+
+
+
+.content-left.content-right .at-panel .region.region-content-second {
+     margin-left: 12px;
+}
+
+
+
+
+.og-context-node-9015 .view-os-image-gallery-slideshow {margin: -24px 0 40px -19px; width : 970px;}
+
+/*
+.lt-ie9 .og-context-node-9015 .view-os-image-gallery-slideshow {margin: -30px 0 38px -20px; width : 970px;height:320px;}
+*/
+/* end column back*/
+
+
+#menu-bar ul.nice-menu ul li a {
+    padding: 10px 10px 5px 18px;
+}
+
+
+
+/*Sidebars weren't behaving well responsively... so i made them here*/
+/*START SIDEBAR FIX*/
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .region-sidebar-first {
+        width:20% !important;
+    }
+    /*#menu-bar ul li a{
+        font-size:0.75em !important;
+    }*/
+      
+    .region-sidebar-second {
+        width:20% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px){
+     .region-sidebar-second {
+        width:48% !important;
+    }
+        .region-sidebar-first {
+        width:48% !important;
+       }
+    
+}
+/*END SIDEBAR FIX*/
+
+#menu-bar ul li a {
+    text-transform:none;
+}
+
+ul.nice-menu ul li a:hover {
+    color:#FFF !important;
+}
+
+.sidebar ul.menu {
+    margin-top: -45px;
+}
+
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}
+
+footer#footer.clearfix {
+ top: inherit !important;
+}
+
+#footer{
+    max-height:240px;
+    padding:0 !important;
+}
+#footerLeft{
+    float:left;
+    margin top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:50px;
+    width:350px;
+}
+#footerRight{
+    margin:10px;
+    overflow:hidden;
+}
+
+#footerRight img{
+    width:100% !important;
+    max-width:340px;
+}
+
+
+@media screen and (max-width: 970px) {
+   #footerLeft { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+  #footer{
+      max-height:inherit !important;
+
+  }
+}
+
