@@ -1,0 +1,20 @@
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
+
+;----------// Theme Information
+
+  name        = thirumalai
+  description = Based on the CNS Theme Dark.
+  module      = cns
+  screenshot  = screenshot.png
+
+;----------// Stylesheets
+
+  css[] = css/thirumalai.css
+; css[] = css/thirumalai.layout.css
+: ie_stylesheets[screen][lt IE 9][] = css/thirumalai-ie.css
+
+; scripts[] = js/thirumalai.js
+

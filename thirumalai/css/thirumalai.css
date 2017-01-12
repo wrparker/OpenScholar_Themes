@@ -1,0 +1,174 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body, body.logged-in {
+     background: #333F48;
+     color: #1E1E1D;
+	}
+
+#header-container #boxes-box-site_info h1 a {
+     color: #f5f4f0;
+}
+
+#columns {
+     background: none repeat scroll 0% 0% #F7F7F7;
+}
+
+#footer {
+     background: #f5f4f0;
+}
+
+#footer .region-inner,
+#footer .region-inner a,
+#footer .region-footer,
+#footer .region-footer a {
+    color: #382f2d;
+}
+
+#header-container h2 {
+     color: #fad392;
+}
+
+/* TYPOGRAPHY*/
+a, a:visited {
+	color:#382f2d;
+	text-decoration: underline;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #cc6600;
+	}
+	
+li a.active {
+  color: #cc6600;
+}
+
+ul.primary li a, ul.primary li.active a {
+	background: transparent;
+}
+
+#menu-bar ul {
+  color: #382f2d;
+}
+
+/* NICE MEUNS */
+ul.nice-menu ul {
+    background: #d6d2c4;
+}
+
+.sidebar #block-os-primary-menu ul.menu a {
+    color: #382f2d;
+}
+
+.sidebar #block-os-secondary-menu ul.menu a {
+     color: #7eafc5;
+}
+
+.sidebar #block-os-primary-menu ul.menu a:hover {
+    color: #7eafc5;
+}
+
+.sidebar .content,
+.sidebar h2.block-title,
+.view .date-nav-wrapper {
+     background: transparent;
+}
+
+.view .date-nav-wrapper .date-prev,
+.view .date-nav-wrapper .date-next {
+     background: transparent;
+     border: 1px solid #f5f4f0;
+}
+
+h1, h2, h3, h4 {
+	font-weight:bolder;
+//	font-family:'Arvo', arial, serif;
+	margin-bottom:15px;
+	}
+
+#menu-bar ul.nice-menu li a:hover, 
+#menu-bar ul.nice-menu li a.active{
+     background: #F5F4F0;
+     color: #382f2d;
+}
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}
+
+/* Add below this line*/
+
+#menu-bar ul li a {
+	font-size: 1em;
+	padding: 1.1em 2.5em;
+
+}
+
+.biblio-title a, .biblio-title-chicago a, .calendar-calendar td .inner div.day a {
+    color: #000;
+	font-family: sans-serif;
+}
+
+.biblio-title a, .biblio-title-chicago a, a, a:visited, .calendar-calendar td .inner div.day a {
+  font-family:sans-serif;
+
+}
+
+.biblio-title a:visited{
+	color: #cc6600 !important;
+}
+
+a.biblio-abstract-link {
+    color: #cc6600;
+}
+
+h1.node-title a{
+    /*font-size: 1.15em;*/
+	color: #cc6600;
+}
+
+#content .node-person .field-name-field-person-photo, #content .node-person .no-default-image, .block-boxes-os_boxes_manual_list .node-person .field-name-field-person-photo,  {
+	
+	color: #cc6600;
+	
+}
+
+#content-column .node-person .field-name-field-phone,  {
+	
+	color: #000;
+	
+}
+
+.field-items,.node-readmore a{
+	color: #000;
+	
+}
+
+#header-container {
+    width: 100% !important;
+    max-width:980px !important;
+}
+
+.sidebar h2.block-title{
+    color:#bf5700 !important;
+    font-weight:bold;
+    text-align:center;
+}
+
+@media (max-width: 768px){
+#menu-bar ul.nice-menu li a {
+    float: none;
+    padding: 0.5em 1.6em;
+    background: #ccc !important;
+    border-bottom: 1px solid #999;
+}
+}
+
+html, body, body.logged-in {
+  font-family: sans-serif;
+}
+
+
