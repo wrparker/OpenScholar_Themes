@@ -1,7 +1,7 @@
 # OpenScholar Themes
 This contains subtheme stylings based off of OpenScholar themes in the College of Natural Sciences at the University of Texas
 
-##Sub-Themes (All created by Ryan)
+## Sub-Themes (All created by Ryan)
 1. INS
 2. chenlab
 3. core
@@ -9,5 +9,5 @@ This contains subtheme stylings based off of OpenScholar themes in the College o
 5. qiaolab
 6. thirumalai
 
-##Themes (based off OpenScholar)
+## Themes (based off OpenScholar)
 1. cns_CBRS (Started by Ernest, Edited by Ryan).
