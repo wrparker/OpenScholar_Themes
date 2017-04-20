@@ -10,7 +10,7 @@ This contains subtheme stylings based off of OpenScholar themes in the College o
 6. thirumalai - https://sites.cns.utexas.edu/thirumalai
 
 ## Themes (based off OpenScholar)
-1. cns_CBRS (Started by Ernest, Edited by Ryan).
+1. cns_CBRS (Started by Ernest, Edited by Ryan)
 ..* Offical Support for the following
 ..* Center for Biological Research Support (https://sites.cns.utexa.edu/cbrs)
 ..* Integrative Neuroscience Initiative on Alcoholism: https://sites.cns.utexas.edu/inia-neuroimmune
